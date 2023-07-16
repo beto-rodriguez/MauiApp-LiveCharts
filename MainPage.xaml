@@ -11,7 +11,8 @@
     
     <Grid>
         <lvc:CartesianChart 
-            Series="{Binding Series}">
+            Series="{Binding Series}"
+            LegendPosition="Bottom">
         </lvc:CartesianChart>
     </Grid>
 
